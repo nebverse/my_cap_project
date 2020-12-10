@@ -1,7 +1,8 @@
+n=int(input("Enter no. of the terms for the range:"))
 print("Enter the nos for the list")
 list1=[]
 i=1
-while i<=5:
+while i<=n:
     a=int(input("No. {}: ".format(i)))
     list1.append(a)
     i+=1
